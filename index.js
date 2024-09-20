@@ -1,10 +1,15 @@
-// declarer une varable
-let firstName = "Bob"
-let age = 34
+// array
+// let users = ["Michael", "Bob", "Sandra"]
+// users.push("test")
 
-// changer ça valeur
-firstName = "Michael"
-age = 32
+// object
+let userOne = {
+	firstName: "Bob",
+	age: 23,
+}
+
+userOne.age = 24
 
 // aficher le valeur dans la console
-console.log(firstName.length)
+console.log(userOne.age)
+
