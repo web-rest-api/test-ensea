@@ -1,15 +1,23 @@
 // array
-// let users = ["Michael", "Bob", "Sandra"]
-// users.push("test")
 
-// object
-let userOne = {
-	firstName: "Bob",
-	age: 23,
-}
+users = [
+	{
+		firstName: "Bob",
+		age: 20,
+		admin: false,
+	},
+	{
+		firstName: "Elsa",
+		age: 34,
+		admin: true,
+	},
+]
 
-userOne.age = 24
+// for (let index = 0; index < 2; index++) {
+//     const element = users[index]
+//     console.log(element);
+// }
 
-// aficher le valeur dans la console
-console.log(userOne.age)
-
+users.forEach((element) => {
+	console.log(element.age)
+})
